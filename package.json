@@ -1,0 +1,12 @@
+{
+  "name": "technical-bubbo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "install:all": "(cd api-server && npm install) && (cd app-frontend && npm install)",
+    "start:api": "(cd api-server && npm start)",
+    "start:app": "(cd app-frontend && npm start)"
+  },
+  "author": "Carlos Liao",
+  "license": "ISC"
+}
